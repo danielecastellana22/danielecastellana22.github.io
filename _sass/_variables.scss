@@ -3,6 +3,9 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 
+//my Color
+$pantone301:          #004b87 !default;
+$pantone301-dark:     darken($pantone301, 25%);
 
 // Colors
 $red-color:           #FF3636 !default;
@@ -34,5 +37,5 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
-$code-bg-color-dark:      #2c3237 !default;
+$code-bg-color-light:     $pantone301;
+$code-bg-color-dark:      $pantone301-dark;
