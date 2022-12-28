@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Reaserch Fellow (RTD-A) in Machine Learning<br>Department of StatisticsInformatics and Application, University of Florence.
+subtitle: Reaserch Fellow (RTD-A) in Machine Learning<br>Department of StatisticsInformatics and Application, University of Florence
 
 profile:
   align: right
