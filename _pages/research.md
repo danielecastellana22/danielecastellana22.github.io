@@ -9,4 +9,6 @@ children:
       permalink: /publications/
     - title: Talks
       permalink: /talks/
+    - title: Projects
+      permalink: /projects/
 ---
