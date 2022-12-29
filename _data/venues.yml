@@ -1,8 +1,11 @@
 "Journal":
-  color: "#00369f"
+  color: "darkred"
 
 "Conference":
-  color: "#053422"
+  color: "darkgreen"
 
 "Thesis":
-  color: "#230011"
+  color: "darkorange"
+
+"Workshop":
+  color: "darkcyan"

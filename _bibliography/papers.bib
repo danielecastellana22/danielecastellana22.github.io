@@ -1,31 +1,37 @@
 @InProceedings{castellana22,
-  abbr = {Conference},
-  title = 	 {The Infinite Contextual Graph {M}arkov Model},
-  author =       {Castellana, Daniele and Errica, Federico and Bacciu, Davide and Micheli, Alessio},
-  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
-  pages = 	 {2721--2737},
-  year = 	 {2022},
-  volume = 	 {162},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {17--23 Jul},
-  publisher =    {PMLR},
-  pdf = 	 {https://proceedings.mlr.press/v162/castellana22a/castellana22a.pdf},
-  url = 	 {https://proceedings.mlr.press/v162/castellana22a.html},
-  abstract = 	 {The Contextual Graph Markov Model (CGMM) is a deep, unsupervised, and probabilistic model for graphs that is trained incrementally on a layer-by-layer basis. As with most Deep Graph Networks, an inherent limitation is the need to perform an extensive model selection to choose the proper size of each layer’s latent representation. In this paper, we address this problem by introducing the Infinite Contextual Graph Markov Model (iCGMM), the first deep Bayesian nonparametric model for graph learning. During training, iCGMM can adapt the complexity of each layer to better fit the underlying data distribution. On 8 graph classification tasks, we show that iCGMM: i) successfully recovers or improves CGMM’s performances while reducing the hyper-parameters’ search space; ii) performs comparably to most end-to-end supervised methods. The results include studies on the importance of depth, hyper-parameters, and compression of the graph embeddings. We also introduce a novel approximated inference procedure that better deals with larger graph topologies.}
+    abbr = {Conference},
+    bibtex_show = {true},
+    title = {The Infinite Contextual Graph {M}arkov Model},
+    author = {Castellana, Daniele and Errica, Federico and Bacciu, Davide and Micheli, Alessio},
+    booktitle = {Proceedings of the 39th International Conference on Machine Learning},
+    pages = {2721--2737},
+    year = {2022},
+    volume = {162},
+    series = {Proceedings of Machine Learning Research},
+    month = {17--23 Jul},
+    publisher = {PMLR},
+    pdf =  {https://proceedings.mlr.press/v162/castellana22a/castellana22a.pdf},
+    url = {https://proceedings.mlr.press/v162/castellana22a.html},
+    selected = {true},
+    abstract = {The Contextual Graph Markov Model (CGMM) is a deep, unsupervised, and probabilistic model for graphs that is trained incrementally on a layer-by-layer basis. As with most Deep Graph Networks, an inherent limitation is the need to perform an extensive model selection to choose the proper size of each layer’s latent representation. In this paper, we address this problem by introducing the Infinite Contextual Graph Markov Model (iCGMM), the first deep Bayesian nonparametric model for graph learning. During training, iCGMM can adapt the complexity of each layer to better fit the underlying data distribution. On 8 graph classification tasks, we show that iCGMM: i) successfully recovers or improves CGMM’s performances while reducing the hyper-parameters’ search space; ii) performs comparably to most end-to-end supervised methods. The results include studies on the importance of depth, hyper-parameters, and compression of the graph embeddings. We also introduce a novel approximated inference procedure that better deals with larger graph topologies.}
 }
 
 
 @phdthesis{Castellana2021PhD,
     abbr = {Thesis},
+    bibtex_show = {true},
     title = {A tensor framework for learning in structured domains},
     author = {Castellana, Daniele},
     school = {Department of Computer Science, Università di Pisa},
     year = {2021},
-    month = {may}
+    month = {may},
+    pdf = {phd_thesis_FINAL.pdf},
+    abstract = {Tensors have been recently emerging as a popular tool in the machine learning community. This interest is firstly motivated by the natural representation of multimodal data as tensors. In this context, tensors are considered a generalisation of arrays to the multi-dimensional case. Indeed, tensors are more than mere containers: they are powerful mathematical objects which are strictly related to multi-linear algebra. A more comprehensive application of tensors and their associated multi-linear algebra led to their use in representing and compressing parameters of machine learning models. Despite such interest, little attention has been paid on leveraging tensor methods to model high-order interactions among information flowing in a learning model. On the other hand, learning machines for structured data (e.g., trees) are intrinsically based on their capacity to learn representations by aggregating information from the multi-way relationships captured in the structure topology. While complex aggregation functions are desirable in this context to increase expressiveness of the learned representations, the modelling of high-order interactions among structure constituents is unfeasible in practice due to the exponential number of parameters required. The aim of this thesis is to build a bridge between tensors and adaptive structured data processing, providing a general framework for learning in structured domains which has tensor theory at its backbone. To this end, we show that tensors arise naturally in model parameters from the formulation of learning problems in structured domains. We propose to approximate such parametrisations leveraging tensor decompositions whose hyper-parameters regulate the trade-off between expressiveness and compression ability. Moreover, we show that each decomposition introduces a specific inductive bias to the model. Another contribution of the thesis is the application of these new approximations to unbounded structures, where tensor decompositions needs combining with weight sharing constraints to control model complexity. The last contribution of our work is the development of two Bayesian non-parametric models for structures which learn to adapt their complexity directly from data.}
 }
 
 @inproceedings{Castellana2020esann,
     abbr = {Conference},
+    bibtex_show = {true},
     abstract = {The paper introduces two new aggregation functions to encode structural knowledge from tree-structured data. They leverage the Canonical and Tensor-Train decompositions to yield expressive context aggregation while limiting the number of model parameters. Finally, we define two novel neural recursive models for trees leveraging such aggrega-tion functions, and we test them on two tree classification tasks, showing the advantage of proposed models when tree outdegree increases.},
     author = {Castellana, Daniele and Bacciu, Davide},
     booktitle = {Proceedings of the the 28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)},
@@ -35,10 +41,12 @@
     year = {2020},
     month = {oct},
     pages = {451--456},
+    pdf = {https://www.esann.org/sites/default/files/proceedings/2020/ES2020-144.pdf}
 }
 
 @inproceedings{Bacciu2018b,
     abbr = {Conference},
+    bibtex_show = {true},
     abstract = {The paper introduces a new probabilistic tree encoder based on a mixture of Bottom-up Hidden Tree Markov Models. The ability to recognise similar structures in data is experimentally assessed both in clusterization and classification tasks. The results of these preliminary experiments suggest that the model can be successfully used to compress the tree structural and label patterns in a vectorial representation.},
     author = {Bacciu, Davide and Castellana, Daniele},
     booktitle = {Proceedings of the 26th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)},
@@ -46,11 +54,13 @@
     title = {{Mixture of Hidden Markov Models as tree encoder}},
     year = {2018},
     month = {apr},
-    pages = {543--548}
+    pages = {543--548},
+    pdf = {https://www.esann.org/sites/default/files/proceedings/legacy/es2018-112.pdf}
 }
 
 @inproceedings{Castellana2019b,
     abbr = {Conference},
+    bibtex_show = {true},
     abstract = {Bottom-Up Hidden Tree Markov Model is a highly expressive model for tree-structured data. Unfortunately, it cannot be used in practice due to the intractable size of its state-transition matrix. We propose a new approximation which lies on the Tucker factorisation of tensors. The probabilistic interpretation of such approximation allows us to define a new probabilistic model for tree-structured data. Hence, we define the new approximated model and we derive its learning algorithm. Then, we empirically assess the effective power of the new model evaluating it on two different tasks. In both cases, our model outperforms the other approximated model known in the literature.},
     author = {Castellana, Daniele and Bacciu, Davide},
     booktitle = {2019 International Joint Conference on Neural Networks (IJCNN)},
@@ -62,21 +72,26 @@
     title = {{Bayesian Tensor Factorisation for Bottom-up Hidden Tree Markov Models}},
     url = {https://ieeexplore.ieee.org/document/8851851/},
     volume = {2019-July},
-    year = {2019}
+    year = {2019},
+    selected={true}
 }
 
 @inproceedings{bacciu2018learning,
-    abbr = {Conference},
+    abbr = {Workshop},
+    bibtex_show = {true},
     author = {Bacciu, Davide and Castellana, Daniele},
     booktitle = {Workshop on Learning and Automata (LearnAut'18)},
     title = {{Learning Tree Distributions by Hidden Markov Models}},
     year = {2018},
     month = {jul},
-    keywords= {workshops}
+    keywords= {workshops},
+    pdf = {https://arxiv.org/abs/1805.12372},
+    abstract = {Hidden tree Markov models allow learning distributions for tree structured data while being interpretable as nondeterministic automata. We provide a concise summary of the main approaches in literature, focusing in particular on the causality assumptions introduced by the choice of a specific tree visit direction. We will then sketch a novel non-parametric generalization of the bottom-up hidden tree Markov model with its interpretation as a nondeterministic tree automaton with infinite states.}
 }
 
 @article{Bacciu2019a,
     abbr = {Journal},
+    bibtex_show = {true},
     title = {Bayesian mixtures of Hidden Tree Markov Models for structured data clustering},
     journal = {Neurocomputing},
     volume = {342},
@@ -87,12 +102,14 @@
     doi = {https://doi.org/10.1016/j.neucom.2018.11.091},
     url = {https://www.sciencedirect.com/science/article/pii/S0925231219301444},
     author = {Davide Bacciu and Daniele Castellana},
+    selected={true},
     keywords = {Hidden Tree Markov Models, Infinite mixtures, Dirichlet Process, Tree structured data},
     abstract = {The paper deals with the problem of unsupervised learning with structured data, proposing a mixture model approach to cluster tree samples. First, we discuss how to use the Switching-Parent Hidden Tree Markov Model, a compositional model for learning tree distributions, to define a finite mixture model where the number of components is fixed by a hyperparameter. Then, we show how to relax such an assumption by introducing a Bayesian non-parametric mixture model where the number of necessary hidden tree components is learned from data. Experimental validation on synthetic and real datasets show the benefit of mixture models over simple hidden tree models in clustering applications. Further, we provide a characterization of the behaviour of the two mixture models for different choices of their hyperparameters.}
 }
 
 @article{Castellana2021neurocomp,
     abbr = {Journal},
+    bibtex_show = {true},
     title = {A tensor framework for learning in structured domains},
     journal = {Neurocomputing},
     year = {2021},
@@ -101,11 +118,13 @@
     url = {https://www.sciencedirect.com/science/article/pii/S0925231221011164},
     author = {Daniele Castellana and Davide Bacciu},
     keywords = {Tensor decompositions, Structured data, Recursive neural models, Probabilistic models},
+    selected={true},
     abstract = {Learning machines for structured data (e.g., trees) are intrinsically based on their capacity to learn representations by aggregating information from the multi-way relationships emerging from the structure topology. While complex aggregation functions are desirable in this context to increase the expressiveness of the learned representations, the modelling of higher-order interactions among structure constituents is unfeasible, in practice, due to the exponential number of parameters required. Therefore, the common approach is to define models which rely only on first-order interactions among structure constituents. In this work, we leverage tensors theory to define a framework for learning in structured domains. Such a framework is built on the observation that more expressive models require a tensor parameterisation. This observation is the stepping stone for the application of tensor decompositions in the context of recursive models. From this point of view, the advantage of using tensor decompositions is twofold since it allows limiting the number of model parameters while injecting inductive biases that do not ignore higher-order interactions. We apply the proposed framework on probabilistic and neural models for structured data, defining different models which leverage tensor decompositions. The experimental validation clearly shows the advantage of these models compared to first-order and full-tensorial models.}
 }
 
 @inproceedings{Castellana2020coling,
     abbr = {Conference},
+    bibtex_show = {true},
     title = {Learning from Non-Binary Constituency Trees via Tensor Decomposition},
     author = {Castellana, Daniele  and Bacciu, Davide},
     booktitle = {Proceedings of the 28th International Conference on Computational Linguistics},
@@ -113,14 +132,17 @@
     year = {2020},
     publisher = {International Committee on Computational Linguistics},
     url = {https://aclanthology.org/2020.coling-main.346},
+    pdf = {https://aclanthology.org/2020.coling-main.346.pdf},
     doi = {10.18653/v1/2020.coling-main.346},
     pages = {3899--3910},
     abstract = {Processing sentence constituency trees in binarised form is a common and popular approach in literature. However, constituency trees are non-binary by nature. The binarisation procedure changes deeply the structure, furthering constituents that instead are close. In this work, we introduce a new approach to deal with non-binary constituency trees which leverages tensor-based models. In particular, we show how a powerful composition function based on the canonical tensor decomposition can exploit such a rich structure. A key point of our approach is the weight sharing constraint imposed on the factor matrices, which allows limiting the number of model parameters. Finally, we introduce a Tree-LSTM model which takes advantage of this composition function and we experimentally assess its performance on different NLP tasks.},
-    keywords= {poster}
+    keywords= {poster},
+    selected={true}
 }
 
 @inproceedings{Castellana2020ijcnn,
     abbr = {Conference},
+    bibtex_show = {true},
     abstract = {Most machine learning models for structured data encode the structural knowledge of a node by leveraging simple aggregation functions (in neural models, typically a weighted sum) of the information in the node's neighbourhood. Nevertheless, the choice of simple context aggregation functions, such as the sum, can be widely sub-optimal. In this work we introduce a general approach to model aggregation of structural context leveraging a tensor-based formulation. We show how the exponential growth in the size of the parameter space can be controlled through an approximation based on the Tucker tensor decomposition. This approximation allows limiting the parameters space size, decoupling it from its strict relation with the size of the hidden encoding space. By this means, we can effectively regulate the trade-off between expressivity of the encoding, controlled by the hidden size, computational complexity and model generalisation, influenced by parameterisation. Finally, we introduce a new Tensorial Tree-LSTM derived as an instance of our framework and we use it to experimentally assess our working hypotheses on tree classification scenarios.},
     archivePrefix = {arXiv},
     arxivId = {2006.10021},
