@@ -1,4 +1,5 @@
 @InProceedings{castellana22,
+  abbr = {Conference},
   title = 	 {The Infinite Contextual Graph {M}arkov Model},
   author =       {Castellana, Daniele and Errica, Federico and Bacciu, Davide and Micheli, Alessio},
   booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
@@ -15,6 +16,7 @@
 
 
 @phdthesis{Castellana2021PhD,
+    abbr = {Thesis},
     title = {A tensor framework for learning in structured domains},
     author = {Castellana, Daniele},
     school = {Department of Computer Science, Università di Pisa},
@@ -23,6 +25,7 @@
 }
 
 @inproceedings{Castellana2020esann,
+    abbr = {Conference},
     abstract = {The paper introduces two new aggregation functions to encode structural knowledge from tree-structured data. They leverage the Canonical and Tensor-Train decompositions to yield expressive context aggregation while limiting the number of model parameters. Finally, we define two novel neural recursive models for trees leveraging such aggrega-tion functions, and we test them on two tree classification tasks, showing the advantage of proposed models when tree outdegree increases.},
     author = {Castellana, Daniele and Bacciu, Davide},
     booktitle = {Proceedings of the the 28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)},
@@ -35,7 +38,8 @@
 }
 
 @inproceedings{Bacciu2018b,
-    abstract = {{\textcopyright} ESANN 2018 - Proceedings, European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning. The paper introduces a new probabilistic tree encoder based on a mixture of Bottom-up Hidden Tree Markov Models. The ability to recognise similar structures in data is experimentally assessed both in clusterization and classification tasks. The results of these preliminary experiments suggest that the model can be successfully used to compress the tree structural and label patterns in a vectorial representation.},
+    abbr = {Conference},
+    abstract = {The paper introduces a new probabilistic tree encoder based on a mixture of Bottom-up Hidden Tree Markov Models. The ability to recognise similar structures in data is experimentally assessed both in clusterization and classification tasks. The results of these preliminary experiments suggest that the model can be successfully used to compress the tree structural and label patterns in a vectorial representation.},
     author = {Bacciu, Davide and Castellana, Daniele},
     booktitle = {Proceedings of the 26th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)},
     isbn = {978-287587047-6},
@@ -46,7 +50,8 @@
 }
 
 @inproceedings{Castellana2019b,
-    abstract = {{\textcopyright} 2019 IEEE. Bottom-Up Hidden Tree Markov Model is a highly expressive model for tree-structured data. Unfortunately, it cannot be used in practice due to the intractable size of its state-transition matrix. We propose a new approximation which lies on the Tucker factorisation of tensors. The probabilistic interpretation of such approximation allows us to define a new probabilistic model for tree-structured data. Hence, we define the new approximated model and we derive its learning algorithm. Then, we empirically assess the effective power of the new model evaluating it on two different tasks. In both cases, our model outperforms the other approximated model known in the literature.},
+    abbr = {Conference},
+    abstract = {Bottom-Up Hidden Tree Markov Model is a highly expressive model for tree-structured data. Unfortunately, it cannot be used in practice due to the intractable size of its state-transition matrix. We propose a new approximation which lies on the Tucker factorisation of tensors. The probabilistic interpretation of such approximation allows us to define a new probabilistic model for tree-structured data. Hence, we define the new approximated model and we derive its learning algorithm. Then, we empirically assess the effective power of the new model evaluating it on two different tasks. In both cases, our model outperforms the other approximated model known in the literature.},
     author = {Castellana, Daniele and Bacciu, Davide},
     booktitle = {2019 International Joint Conference on Neural Networks (IJCNN)},
     doi = {10.1109/IJCNN.2019.8851851},
@@ -61,6 +66,7 @@
 }
 
 @inproceedings{bacciu2018learning,
+    abbr = {Conference},
     author = {Bacciu, Davide and Castellana, Daniele},
     booktitle = {Workshop on Learning and Automata (LearnAut'18)},
     title = {{Learning Tree Distributions by Hidden Markov Models}},
@@ -70,6 +76,7 @@
 }
 
 @article{Bacciu2019a,
+    abbr = {Journal},
     title = {Bayesian mixtures of Hidden Tree Markov Models for structured data clustering},
     journal = {Neurocomputing},
     volume = {342},
@@ -85,6 +92,7 @@
 }
 
 @article{Castellana2021neurocomp,
+    abbr = {Journal},
     title = {A tensor framework for learning in structured domains},
     journal = {Neurocomputing},
     year = {2021},
@@ -97,6 +105,7 @@
 }
 
 @inproceedings{Castellana2020coling,
+    abbr = {Conference},
     title = {Learning from Non-Binary Constituency Trees via Tensor Decomposition},
     author = {Castellana, Daniele  and Bacciu, Davide},
     booktitle = {Proceedings of the 28th International Conference on Computational Linguistics},
@@ -111,6 +120,7 @@
 }
 
 @inproceedings{Castellana2020ijcnn,
+    abbr = {Conference},
     abstract = {Most machine learning models for structured data encode the structural knowledge of a node by leveraging simple aggregation functions (in neural models, typically a weighted sum) of the information in the node's neighbourhood. Nevertheless, the choice of simple context aggregation functions, such as the sum, can be widely sub-optimal. In this work we introduce a general approach to model aggregation of structural context leveraging a tensor-based formulation. We show how the exponential growth in the size of the parameter space can be controlled through an approximation based on the Tucker tensor decomposition. This approximation allows limiting the parameters space size, decoupling it from its strict relation with the size of the hidden encoding space. By this means, we can effectively regulate the trade-off between expressivity of the encoding, controlled by the hidden size, computational complexity and model generalisation, influenced by parameterisation. Finally, we introduce a new Tensorial Tree-LSTM derived as an instance of our framework and we use it to experimentally assess our working hypotheses on tree classification scenarios.},
     archivePrefix = {arXiv},
     arxivId = {2006.10021},

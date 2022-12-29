@@ -2,7 +2,9 @@
 layout: about
 title: About
 permalink: /
-subtitle: Reaserch Fellow (RTD-A) in Machine Learning<br>Department of StatisticsInformatics and Application, University of Florence
+subtitle: >
+  <p><b>Reaserch Fellow (RTD-A) in Machine Learning</b></p>
+  <p>Department of Statistics, Informatics and Application, University of Florence</p>
 
 profile:
   align: right
@@ -10,7 +12,7 @@ profile:
   image_circular: true # crops the image to make it circular
   address: >
     <p>Room 65</p>
-    <p> Viale Morgagni, 65</p>
+    <p>Viale Morgagni, 65</p>
     <p>Firenze, Italy</p>
 
 news: true  # includes a list of news items
