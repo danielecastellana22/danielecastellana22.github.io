@@ -3,8 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  <p><b>Reaserch Fellow (RTD-A) in Machine Learning</b></p>
-  <p>Department of Statistics, Informatics and Application, University of Florence</p>
+  <h4 style='margin-bottom: 0'><b>Reaserch Fellow (RTD-A) in Machine Learning</b></h4>
+  <h5 style='margin-bottom: 1rem'>Department of Statistics, Informatics and Application, University of Florence</h5>
 
 profile:
   align: right
