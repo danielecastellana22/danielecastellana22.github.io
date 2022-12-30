@@ -7,9 +7,9 @@ dropdown: true
 children: 
     - title: Opportunities
       permalink: /opportunities/
-    - title: divider
-    - title: Research
-      permalink: /research_sup/
-    - title: MSc & BSc
-      permalink: /grad_sup/
+#    - title: divider
+#    - title: Research
+#      permalink: /research_sup/
+#    - title: MSc & BSc
+#      permalink: /grad_sup/
 ---
