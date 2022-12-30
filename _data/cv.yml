@@ -8,6 +8,18 @@
     - name: Languages
       value: English, Italian
 
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Fellow (RTD-A) in Machine Learning
+      institution: Department of Statistics, Informatics and Applications, University of Florence, Italy
+      year: 2022-2025
+    - title: Post-Doc in Machine Learning
+      institution: Department of Computer Science, University of Pisa, Italy
+      year: 2021 - 2022
+      description:
+        - Developing tensor-based ML models for structured data
+
 - title: Education
   type: time_table
   contents:
@@ -15,27 +27,23 @@
       institution: Department of Computer Science, University of Pisa, Italy
       year: 2017 - 2021
       description:
-        - Something on the thesis
+        - "Thesis Title: <i>A Tensor Framework for Learning in Structured Domains</i>"
+        - "Supervisor: <i>Prof. Davide Bacciu</i>"
+        - "Grade: <i>Ottimmo con Lode</i>"
     - title: MSc in Computer Science
       institution: Department of Computer Science, University of Pisa, Italy
       year: 2014 - 2017
       description:
-        - Something on the thesis
+        - "Thesis Title: <i>Learning Tree Transducers: a coupled Hidden Markov Tree approach</i>"
+        - "Supervisor: <i>Prof. Davide Bacciu</i>"
+        - "Grade: <i>110/110 with honours</i>"
     - title: BSc in Computer Science
       institution: Department of Computer Science, University of Pisa, Italy
       year: 2011 - 2014
       description:
-        - Something on the thesis
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Research Fellow (RTD-A) on Machine Learning
-      institution: Department of Statistics, Informatics and Applications, University of Florence, Italy
-      year: 2022-2025
-    - title: Post-Doc on Machine Learning
-      institution: Department of Computer Science, University of Pisa, Italy
-      year: 2021 - 2022
+        - "Thesis Title: <i>Novel Interface for Novel Input Device</i>"
+        - "Supervisor: <i>Dr. Antonio Cisternino</i>"
+        - "Grade: <i>110/110 with honours</i>"
 
 - title: Honors and Awards
   type: time_table
