@@ -2,8 +2,6 @@
 layout: about
 title: About
 permalink: /
-position: Reaserch Fellow (RTD-A) in Machine Learning
-affiliation: Department of Statistics, Informatics and Application, University of Florence
 
 profile:
   align: right

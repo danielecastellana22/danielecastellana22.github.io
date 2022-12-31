@@ -1,12 +1,16 @@
 # -----------------------------------------------------------------------------
-# Site settings
+# User info
 # -----------------------------------------------------------------------------
-
-title: blank # the website title (if blank, full name will be used instead)
 first_name: Daniele
 middle_name:
 last_name: Castellana
 email: daniele.castellana@unifi.it
+academic_position: Research Fellow (RTD-A) in Machine Learning
+academic_affiliation: Department of Statistics, Informatics and Application, University of Florence
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+title: blank # the website title (if blank, full name will be used instead)
 description: Daniele Castellana academic website
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.

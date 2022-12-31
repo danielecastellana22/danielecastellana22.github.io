@@ -9,8 +9,8 @@ layout: default
            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
           <div class="desc">
-              <h4 style='margin-bottom: 0'><b>{{ page.position }}</b></h4>
-              <h5 style='margin-bottom: 1rem'>{{ page.affiliation }}</h5>
+              <h4 style='margin-bottom: 0' class="font-weight-bold">{{ site.academic_position }}</h4>
+              <h5 style='margin-bottom: 1rem'>{{ site.academic_affiliation }}</h5>
           </div>
         </header>
 
