@@ -1,3 +1,6 @@
+------------------------------------------------------------------------------------------------------------------------
+LIST OF PAPERS
+------------------------------------------------------------------------------------------------------------------------
 @InProceedings{castellana22,
     abbr = {Conference},
     bibtex_show = {true},
@@ -27,84 +30,6 @@
     month = {may},
     pdf = {phd_thesis_FINAL.pdf},
     abstract = {Tensors have been recently emerging as a popular tool in the machine learning community. This interest is firstly motivated by the natural representation of multimodal data as tensors. In this context, tensors are considered a generalisation of arrays to the multi-dimensional case. Indeed, tensors are more than mere containers: they are powerful mathematical objects which are strictly related to multi-linear algebra. A more comprehensive application of tensors and their associated multi-linear algebra led to their use in representing and compressing parameters of machine learning models. Despite such interest, little attention has been paid on leveraging tensor methods to model high-order interactions among information flowing in a learning model. On the other hand, learning machines for structured data (e.g., trees) are intrinsically based on their capacity to learn representations by aggregating information from the multi-way relationships captured in the structure topology. While complex aggregation functions are desirable in this context to increase expressiveness of the learned representations, the modelling of high-order interactions among structure constituents is unfeasible in practice due to the exponential number of parameters required. The aim of this thesis is to build a bridge between tensors and adaptive structured data processing, providing a general framework for learning in structured domains which has tensor theory at its backbone. To this end, we show that tensors arise naturally in model parameters from the formulation of learning problems in structured domains. We propose to approximate such parametrisations leveraging tensor decompositions whose hyper-parameters regulate the trade-off between expressiveness and compression ability. Moreover, we show that each decomposition introduces a specific inductive bias to the model. Another contribution of the thesis is the application of these new approximations to unbounded structures, where tensor decompositions needs combining with weight sharing constraints to control model complexity. The last contribution of our work is the development of two Bayesian non-parametric models for structures which learn to adapt their complexity directly from data.}
-}
-
-@inproceedings{Castellana2020esann,
-    abbr = {Conference},
-    bibtex_show = {true},
-    abstract = {The paper introduces two new aggregation functions to encode structural knowledge from tree-structured data. They leverage the Canonical and Tensor-Train decompositions to yield expressive context aggregation while limiting the number of model parameters. Finally, we define two novel neural recursive models for trees leveraging such aggrega-tion functions, and we test them on two tree classification tasks, showing the advantage of proposed models when tree outdegree increases.},
-    author = {Castellana, Daniele and Bacciu, Davide},
-    booktitle = {Proceedings of the the 28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)},
-    isbn = {978-2-87587-074-2},
-    keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
-    title = {{Tensor Decompositions in Recursive Neural Networks for Tree-Structured Data}},
-    year = {2020},
-    month = {oct},
-    pages = {451--456},
-    pdf = {https://www.esann.org/sites/default/files/proceedings/2020/ES2020-144.pdf}
-}
-
-@inproceedings{Bacciu2018b,
-    abbr = {Conference},
-    bibtex_show = {true},
-    abstract = {The paper introduces a new probabilistic tree encoder based on a mixture of Bottom-up Hidden Tree Markov Models. The ability to recognise similar structures in data is experimentally assessed both in clusterization and classification tasks. The results of these preliminary experiments suggest that the model can be successfully used to compress the tree structural and label patterns in a vectorial representation.},
-    author = {Bacciu, Davide and Castellana, Daniele},
-    booktitle = {Proceedings of the 26th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)},
-    isbn = {978-287587047-6},
-    title = {{Mixture of Hidden Markov Models as tree encoder}},
-    year = {2018},
-    month = {apr},
-    pages = {543--548},
-    pdf = {https://www.esann.org/sites/default/files/proceedings/legacy/es2018-112.pdf}
-}
-
-@inproceedings{Castellana2019b,
-    abbr = {Conference},
-    bibtex_show = {true},
-    abstract = {Bottom-Up Hidden Tree Markov Model is a highly expressive model for tree-structured data. Unfortunately, it cannot be used in practice due to the intractable size of its state-transition matrix. We propose a new approximation which lies on the Tucker factorisation of tensors. The probabilistic interpretation of such approximation allows us to define a new probabilistic model for tree-structured data. Hence, we define the new approximated model and we derive its learning algorithm. Then, we empirically assess the effective power of the new model evaluating it on two different tasks. In both cases, our model outperforms the other approximated model known in the literature.},
-    author = {Castellana, Daniele and Bacciu, Davide},
-    booktitle = {2019 International Joint Conference on Neural Networks (IJCNN)},
-    doi = {10.1109/IJCNN.2019.8851851},
-    isbn = {978-1-7281-1985-4},
-    month = {jul},
-    pages = {1--8},
-    publisher = {IEEE},
-    title = {{Bayesian Tensor Factorisation for Bottom-up Hidden Tree Markov Models}},
-    url = {https://ieeexplore.ieee.org/document/8851851/},
-    volume = {2019-July},
-    year = {2019},
-    selected={true}
-}
-
-@inproceedings{bacciu2018learning,
-    abbr = {Workshop},
-    bibtex_show = {true},
-    author = {Bacciu, Davide and Castellana, Daniele},
-    booktitle = {Workshop on Learning and Automata (LearnAut'18)},
-    title = {{Learning Tree Distributions by Hidden Markov Models}},
-    year = {2018},
-    month = {jul},
-    keywords= {workshops},
-    pdf = {https://arxiv.org/abs/1805.12372},
-    abstract = {Hidden tree Markov models allow learning distributions for tree structured data while being interpretable as nondeterministic automata. We provide a concise summary of the main approaches in literature, focusing in particular on the causality assumptions introduced by the choice of a specific tree visit direction. We will then sketch a novel non-parametric generalization of the bottom-up hidden tree Markov model with its interpretation as a nondeterministic tree automaton with infinite states.}
-}
-
-@article{Bacciu2019a,
-    abbr = {Journal},
-    bibtex_show = {true},
-    title = {Bayesian mixtures of Hidden Tree Markov Models for structured data clustering},
-    journal = {Neurocomputing},
-    volume = {342},
-    pages = {49-59},
-    year = {2019},
-    note = {Advances in artificial neural networks, machine learning and computational intelligence},
-    issn = {0925-2312},
-    doi = {https://doi.org/10.1016/j.neucom.2018.11.091},
-    url = {https://www.sciencedirect.com/science/article/pii/S0925231219301444},
-    author = {Davide Bacciu and Daniele Castellana},
-    selected={true},
-    keywords = {Hidden Tree Markov Models, Infinite mixtures, Dirichlet Process, Tree structured data},
-    abstract = {The paper deals with the problem of unsupervised learning with structured data, proposing a mixture model approach to cluster tree samples. First, we discuss how to use the Switching-Parent Hidden Tree Markov Model, a compositional model for learning tree distributions, to define a finite mixture model where the number of components is fixed by a hyperparameter. Then, we show how to relax such an assumption by introducing a Bayesian non-parametric mixture model where the number of necessary hidden tree components is learned from data. Experimental validation on synthetic and real datasets show the benefit of mixture models over simple hidden tree models in clustering applications. Further, we provide a characterization of the behaviour of the two mixture models for different choices of their hyperparameters.}
 }
 
 @article{Castellana2021neurocomp,
@@ -157,4 +82,98 @@
     title = {{Generalising Recursive Neural Models by Tensor Decomposition}},
     url = {https://ieeexplore.ieee.org/document/9206597/},
     year = {2020}
+}
+
+@inproceedings{Castellana2020esann,
+    abbr = {Conference},
+    bibtex_show = {true},
+    abstract = {The paper introduces two new aggregation functions to encode structural knowledge from tree-structured data. They leverage the Canonical and Tensor-Train decompositions to yield expressive context aggregation while limiting the number of model parameters. Finally, we define two novel neural recursive models for trees leveraging such aggrega-tion functions, and we test them on two tree classification tasks, showing the advantage of proposed models when tree outdegree increases.},
+    author = {Castellana, Daniele and Bacciu, Davide},
+    booktitle = {Proceedings of the the 28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)},
+    isbn = {978-2-87587-074-2},
+    keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+    title = {{Tensor Decompositions in Recursive Neural Networks for Tree-Structured Data}},
+    year = {2020},
+    month = {oct},
+    pages = {451--456},
+    pdf = {https://www.esann.org/sites/default/files/proceedings/2020/ES2020-144.pdf}
+}
+
+
+@article{Bacciu2019a,
+    abbr = {Journal},
+    bibtex_show = {true},
+    title = {Bayesian mixtures of Hidden Tree Markov Models for structured data clustering},
+    journal = {Neurocomputing},
+    volume = {342},
+    pages = {49-59},
+    year = {2019},
+    note = {Advances in artificial neural networks, machine learning and computational intelligence},
+    issn = {0925-2312},
+    doi = {https://doi.org/10.1016/j.neucom.2018.11.091},
+    url = {https://www.sciencedirect.com/science/article/pii/S0925231219301444},
+    author = {Davide Bacciu and Daniele Castellana},
+    selected={true},
+    keywords = {Hidden Tree Markov Models, Infinite mixtures, Dirichlet Process, Tree structured data},
+    abstract = {The paper deals with the problem of unsupervised learning with structured data, proposing a mixture model approach to cluster tree samples. First, we discuss how to use the Switching-Parent Hidden Tree Markov Model, a compositional model for learning tree distributions, to define a finite mixture model where the number of components is fixed by a hyperparameter. Then, we show how to relax such an assumption by introducing a Bayesian non-parametric mixture model where the number of necessary hidden tree components is learned from data. Experimental validation on synthetic and real datasets show the benefit of mixture models over simple hidden tree models in clustering applications. Further, we provide a characterization of the behaviour of the two mixture models for different choices of their hyperparameters.}
+}
+
+@inproceedings{Castellana2019b,
+    abbr = {Conference},
+    bibtex_show = {true},
+    abstract = {Bottom-Up Hidden Tree Markov Model is a highly expressive model for tree-structured data. Unfortunately, it cannot be used in practice due to the intractable size of its state-transition matrix. We propose a new approximation which lies on the Tucker factorisation of tensors. The probabilistic interpretation of such approximation allows us to define a new probabilistic model for tree-structured data. Hence, we define the new approximated model and we derive its learning algorithm. Then, we empirically assess the effective power of the new model evaluating it on two different tasks. In both cases, our model outperforms the other approximated model known in the literature.},
+    author = {Castellana, Daniele and Bacciu, Davide},
+    booktitle = {2019 International Joint Conference on Neural Networks (IJCNN)},
+    doi = {10.1109/IJCNN.2019.8851851},
+    isbn = {978-1-7281-1985-4},
+    month = {jul},
+    pages = {1--8},
+    publisher = {IEEE},
+    title = {{Bayesian Tensor Factorisation for Bottom-up Hidden Tree Markov Models}},
+    url = {https://ieeexplore.ieee.org/document/8851851/},
+    volume = {2019-July},
+    year = {2019},
+    selected={true}
+}
+
+@inproceedings{Bacciu2018b,
+    abbr = {Conference},
+    bibtex_show = {true},
+    abstract = {The paper introduces a new probabilistic tree encoder based on a mixture of Bottom-up Hidden Tree Markov Models. The ability to recognise similar structures in data is experimentally assessed both in clusterization and classification tasks. The results of these preliminary experiments suggest that the model can be successfully used to compress the tree structural and label patterns in a vectorial representation.},
+    author = {Bacciu, Davide and Castellana, Daniele},
+    booktitle = {Proceedings of the 26th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)},
+    isbn = {978-287587047-6},
+    title = {{Mixture of Hidden Markov Models as tree encoder}},
+    year = {2018},
+    month = {apr},
+    pages = {543--548},
+    pdf = {https://www.esann.org/sites/default/files/proceedings/legacy/es2018-112.pdf}
+}
+
+@inproceedings{bacciu2018learning,
+    abbr = {Workshop},
+    bibtex_show = {true},
+    author = {Bacciu, Davide and Castellana, Daniele},
+    booktitle = {Workshop on Learning and Automata (LearnAut'18)},
+    title = {{Learning Tree Distributions by Hidden Markov Models}},
+    year = {2018},
+    month = {jul},
+    keywords= {workshops},
+    pdf = {https://arxiv.org/abs/1805.12372},
+    abstract = {Hidden tree Markov models allow learning distributions for tree structured data while being interpretable as nondeterministic automata. We provide a concise summary of the main approaches in literature, focusing in particular on the causality assumptions introduced by the choice of a specific tree visit direction. We will then sketch a novel non-parametric generalization of the bottom-up hidden tree Markov model with its interpretation as a nondeterministic tree automaton with infinite states.}
+}
+
+------------------------------------------------------------------------------------------------------------------------
+LIST OF TALKS
+------------------------------------------------------------------------------------------------------------------------
+@misc{trento2022,
+    abbr = {Invited Talks},
+    title = {A Tensor Framework for Learning in Structured Domains },
+    author = {Castellana, Daniele},
+    year = {2022},
+    month = {Apr},
+    event = {Mathematics for Data Science, Artificial Intelligence and Machine Learning},
+    location = {Department of Mathematics, Trento, TN},
+    slides = {trento_talk_slides.pdf},
+    url = {http://datascience.maths.unitn.it/events/Math4DS-AI-ML/index.html}
 }

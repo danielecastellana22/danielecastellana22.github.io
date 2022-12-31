@@ -257,7 +257,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: papers&talks.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -267,11 +267,11 @@ scholar:
   replace_strings: true
   join_strings: true
 
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+  #details_dir: bibliography
+  #details_layout: bibtex.html
+  #details_link: Details
 
-  query: "@*"
+  #query: "@*"
 
   sort_by: year, month
   order: descending
