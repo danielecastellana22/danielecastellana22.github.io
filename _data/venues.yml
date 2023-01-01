@@ -9,3 +9,6 @@
 
 "Workshop":
   color: "darkcyan"
+
+"Invited":
+  color: "firebrick"
