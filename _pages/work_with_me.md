@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Supervision
+title: Work with me
 nav: true
 nav_order: 4
 dropdown: true
