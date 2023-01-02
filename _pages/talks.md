@@ -2,17 +2,16 @@
 layout: page
 permalink: /talks/
 title: Invited talks
-description: Invited talks in reversed chronological order.
-years: [2022]
+description: Talks in reversed chronological order.
 nav: false
 ---
 <!-- _pages/talks.md -->
 <div class="publications">
-  
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -q @misc[year={{y}}] %}
 
-{% endfor %}
+  <h3>Invited talks</h2>
+  {% bibliography -q @misc %}
+
+  <h3>Talks at International Conferences and Workshops</h2>
+  {% bibliography -q @inproceedings %}
 
 </div>
