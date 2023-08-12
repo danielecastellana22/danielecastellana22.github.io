@@ -13,4 +13,7 @@ If you are interested in a PhD on Machine Learning, send me an email to discuss 
 ### MSc Thesis
 
 - **Deep Learning for Soccer Data Analysis** <br>
-  The idea is to apply DL techniques for images to extract players/teams stats directly from soccer match videos.
+  We would like to to apply DL techniques for images to extract players/teams stats directly from soccer match videos.
+
+- **Machine Learning for Anomaly-based Intrusion Detection** <br>
+  We would like to investigate which ML paradigms is more suitable for anomaly-based intrusion detection, e.g. unsupervised learning (i.e. generative models) and continual learning.
