@@ -11,7 +11,4 @@ nav: false
   <h3>Invited talks</h3>
   {% bibliography -q @misc %}
 
-  <h3>Talks at International Conferences and Workshops</h3>
-  {% bibliography -q @inproceedings %}
-
 </div>

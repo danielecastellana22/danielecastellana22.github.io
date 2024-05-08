@@ -7,8 +7,10 @@ nav: true
 nav_order: 5
 ---
 ### Courses
-- **Computational Learning**, *MSc in Computer Science*, *University of Florence*, a.y. 2021-2022
-- **Informatica**, *BSc in Primamry Education*, *University of Florece*, a.y. 2021-2022
+- **Computational Learning**, *MSc in Computer Science*, *University of Florence*, a.y. 2022-2024
+- **Probabilistic Reasoning in Machine Learning**, *PhD course in Computer Science*, *University of Pisa*, a.y. 2023-2024
+- **Computer Architectures**, *BSc in Computer Science*, *University of Florence*, a.y. 2023-2024
+- **Informatica**, *BSc in Primamry Education*, *University of Florece*, a.y. 2022-2023
 
 
 ### Guest Lectures
