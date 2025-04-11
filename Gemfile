@@ -23,4 +23,3 @@ group :other_plugins do
     # Add this: only include `uri` gem when running in CI (e.g., GitHub Actions)
     gem 'uri', '0.10.1' if ENV['CI']   
 end
-end
