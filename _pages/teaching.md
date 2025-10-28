@@ -12,12 +12,12 @@ nav_order: 5
 #### Old 
 - **Probabilistic Reasoning in Machine Learning**, *PhD course in Computer Science*, *University of Pisa*, a.y. 2023-2024
 - **Computer Architectures**, *BSc in Computer Science*, *University of Florence*, a.y. 2023-2024
-- **Informatica**, *BSc in Primamry Education*, *University of Florece*, a.y. 2022-2023
+- **Informatica**, *BSc in Primary Education*, *University of Florence*, a.y. 2022-2023
 
 
 ### Guest Lectures
 
-- **Sampling methods**, *Intelligent System and Pattern Recognintion* course, *MSc Computer Science*, Universty of Pisa, a.y. 2020-2021
+- **Sampling methods**, *Intelligent System and Pattern Recognition* course, *MSc Computer Science*, University of Pisa, a.y. 2020-2021
 
 ### Teaching Assistant
 
