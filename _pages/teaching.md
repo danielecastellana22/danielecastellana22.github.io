@@ -9,6 +9,7 @@ nav_order: 5
 ### Courses
 - **Computational Learning**, *MSc in Data Science, Scientific Computing, and AI*, *University of Florence*
 - **Programmazione 1**, *BSc in Computer Science*, *University of Florence*
+
 #### Old 
 - **Probabilistic Reasoning in Machine Learning**, *PhD course in Computer Science*, *University of Pisa*, a.y. 2023-2024
 - **Computer Architectures**, *BSc in Computer Science*, *University of Florence*, a.y. 2023-2024
