@@ -11,7 +11,7 @@ nav: false
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -q !@misc[year={{y}}] %}
+  {% bibliography  --file papers -q !@misc[year={{y}}] %}
 {% endfor %}
 
 </div>

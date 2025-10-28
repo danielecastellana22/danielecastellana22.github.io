@@ -8,6 +8,6 @@ nav: false
 <!-- _pages/talks.md -->
 <div class="publications">
 
-  {% bibliography -q @misc %}
+  {% bibliography --file talks %}
 
 </div>
