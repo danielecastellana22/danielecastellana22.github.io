@@ -2,24 +2,29 @@
 layout: page
 permalink: /opportunities/
 title: Opportunities
-description: "Thesis and research opportunities. The list is not exhaustive: send me an email to discuss other potential research project or BSc/MSc thesis!" 
+description: "Thesis and research opportunities" 
 nav: false
 ---
 
-### Research
+This is a list of topics I am interested in. 
+The list is not exhaustive! If you are interested in a particular topic, email me to discuss a potential research project or BSc/MSc thesis.
 
-If you are interested in a PhD in Machine Learning, send me an email to discuss a potential PhD project. 
+### Topics
 
-### MSc Thesis
+- **Machine Learning for Genetic Data** <br>
+  We would like to apply ML techniques to genetica data to infer some properties, e.g., the biogeographical ancestry.
 
-- **Deep Learning for Soccer Data Analysis** <br>
-  We would like to apply DL techniques for images to extract players’/teams’ stats directly from soccer match videos.
+- **Machine Learning for Social Sciences** <br>
+  We would like to apply DL techniques for images to extract players’/teams’ stats directly from soccer match videos/data.
 
-- **Machine Learning for Anomaly-based Intrusion Detection** <br>
-  We would like to use ML for anomaly-based intrusion detection. In particular, we are interested in investigating approaches such as unsupervised learning (i.e. generative models) and continual learning.
+- **Machine Learning for Anomaly Detection** <br>
+  We would like to use ML for anomaly detection. In particular, we are interested in investigating approaches such as unsupervised learning (i.e., generative models) and continual learning.
   
-- **Latent Space Organization of Variational Auto-Encoders** <br>
-  VAE are generative models which can map input data into a latent space which can be sampled to generate new data. In this thesis, we would like to force an organisation of the latent space based on the semantics of the input. Such an organisation should be inferred automatically from examples of usage of the input (e.g. if the inputs are digits, the plus operator can be used to infer the order of the digit).
+- **Latent Space Organization of Generative Models** <br>
+  Pushing generative models, such as VAE, to organize their latent space based on the semantics of the input. Such an organization should be inferred automatically by porividing to the model some examples of data manipulations (e.g., the sum operator for images that represent digits).
 
 - **Tensor-based Recursive Neural Networks for Static Code Analysis** <br>
-  We would like to use tensor-based RecNN to infer properties of code snippets from their syntactic trees.
+  Deepening the use of tensor-based RecNN to infer properties of code snippets from their syntactic trees.
+
+- **Deep Learning for Soccer Data Analysis** <br>
+  We would like to apply DL techniques for images to extract players’/teams’ stats directly from soccer match videos/data.
