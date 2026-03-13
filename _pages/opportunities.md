@@ -15,7 +15,7 @@ The list is not exhaustive! If you are interested in a particular topic, email m
   We would like to apply ML techniques to genetica data to infer some properties, e.g., the biogeographical ancestry.
 
 - **Machine Learning for Social Sciences** <br>
-  We would like to apply DL techniques for images to extract players’/teams’ stats directly from soccer match videos/data.
+  We would like to apply DL techniques to social sciences. I am particularly interested in the application of graph-based models to economic data.
 
 - **Machine Learning for Anomaly Detection** <br>
   We would like to use ML for anomaly detection. In particular, we are interested in investigating approaches such as unsupervised learning (i.e., generative models) and continual learning.
